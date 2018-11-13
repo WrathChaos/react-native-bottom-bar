@@ -8,9 +8,8 @@ import {
 } from "react-native";
 import { Icon } from "react-native-elements";
 // Other Components
-import { ShowcaseScreen } from "./example/src/components/ShowcaseScreen";
-import BottomBar from "./lib/src/components/BottomBar"; // Do not forget to make it "react-native-bottom-bar"
-console.disableYellowBox = true;
+import { ShowcaseScreen } from "./src/components/ShowcaseScreen";
+import BottomBar from "../lib/src/components/BottomBar"; // Do not forget to make it "react-native-bottom-bar"
 
 const mainColor = "#373f4c";
 const url = "www.freakycoder.com";
@@ -18,6 +17,8 @@ const pinkGradient = ["#ee9ca7", "#ffdde1"];
 const pinkDarkGradient = ["#654ea3", "#eaafc8"];
 const pinkyGradient = ["#DA4453", "#89216B"];
 const pnkGradient = ["#bc4e9c", "#f80759"];
+
+console.disableYellowBox = true;
 
 export default class App extends React.Component {
   openURL() {
