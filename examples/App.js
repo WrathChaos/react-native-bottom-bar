@@ -109,21 +109,5 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1
-  },
-  homeContainer: {
-    alignItems: "center"
-  },
-  welcome: {
-    color: "rgba(255, 255, 255, .85)",
-    marginBottom: 45,
-    fontSize: 30,
-    textAlign: "center"
-  },
-  registration: {
-    color: "rgba(0, 0, 0, .5)",
-    marginTop: 20,
-    fontSize: 16,
-    paddingHorizontal: 20,
-    textAlign: "center"
   }
 });
