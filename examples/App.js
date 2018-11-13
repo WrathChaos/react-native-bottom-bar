@@ -9,7 +9,7 @@ import {
 import { Icon } from "react-native-elements";
 // Other Components
 import { ShowcaseScreen } from "./src/components/ShowcaseScreen";
-import BottomBar from "../lib/src/components/BottomBar"; // Do not forget to make it "react-native-bottom-bar"
+import BottomBar from "react-native-bottom-bar"; // Do not forget to make it "react-native-bottom-bar"
 
 const mainColor = "#373f4c";
 const url = "www.freakycoder.com";

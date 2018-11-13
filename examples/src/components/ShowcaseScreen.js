@@ -51,22 +51,21 @@ const TouchableRoundedImage = ({ style, ...props }) => (
     />
   </TouchableOpacity>
 );
-
 const recents = [
   {
     album: "Time Of Mirrors",
     author: "Chaotic Hook",
-    cover: require("../../../assets/angel-jimenez-168185_2x.png")
+    cover: require("../../assets/angel-jimenez-168185_2x.png")
   },
   {
     album: "Last Chances",
     author: "Seizing Mistake",
-    cover: require("../../../assets/paul-morris-144777_2x.png")
+    cover: require("../../assets/paul-morris-144777_2x.png")
   },
   {
     album: "No Tales",
     author: "Misconduct",
-    cover: require("../../../assets/sasha-freemind-186664_2x.png")
+    cover: require("../../assets/sasha-freemind-186664_2x.png")
   }
 ];
 
@@ -100,7 +99,7 @@ export class ShowcaseScreen extends React.Component {
           <TouchableOpacity>
             <Image
               style={styles.avatar}
-              source={require("../../../assets/2957332499138.jpg")}
+              source={require("../../assets/2957332499138.jpg")}
             />
           </TouchableOpacity>
         </View>
@@ -109,7 +108,7 @@ export class ShowcaseScreen extends React.Component {
             <View style={styles.suggestionRow}>
               <TouchableRoundedImage
                 style={styles.bigSuggestionWithText}
-                source={require("../../../assets/gradient.png")}
+                source={require("../../assets/gradient.png")}
               >
                 <View style={styles.suggestionTextBlock}>
                   <Text style={styles.suggestionText}>
@@ -123,53 +122,53 @@ export class ShowcaseScreen extends React.Component {
               <View style={styles.suggestionColumn}>
                 <TouchableRoundedImage
                   style={styles.smallSuggestion}
-                  source={require("../../../assets/wild-vibez-317184.png")}
+                  source={require("../../assets/wild-vibez-317184.png")}
                 />
                 <TouchableRoundedImage
                   style={[
                     styles.smallSuggestion,
                     styles.smallSuggestionMarginTop
                   ]}
-                  source={require("../../../assets/joel-filipe-193035.png")}
+                  source={require("../../assets/joel-filipe-193035.png")}
                 />
               </View>
               <TouchableRoundedImage
                 style={styles.bigSuggestion}
-                source={require("../../../assets/efe-kurnaz-315384_2x.png")}
+                source={require("../../assets/efe-kurnaz-315384_2x.png")}
               />
             </View>
             <View style={styles.suggestionRowBottom}>
               <TouchableRoundedImage
                 style={styles.smallSuggestion}
-                source={require("../../../assets/mario-silva-315041.png")}
+                source={require("../../assets/mario-silva-315041.png")}
               />
               <TouchableRoundedImage
                 style={[
                   styles.smallSuggestion,
                   styles.smallSuggestionMarginLeft
                 ]}
-                source={require("../../../assets/sasha-freemind-437035.png")}
+                source={require("../../assets/sasha-freemind-437035.png")}
               />
               <TouchableRoundedImage
                 style={[
                   styles.smallSuggestion,
                   styles.smallSuggestionMarginLeft
                 ]}
-                source={require("../../../assets/sasha-freemind-421432.png")}
+                source={require("../../assets/sasha-freemind-421432.png")}
               />
               <TouchableRoundedImage
                 style={[
                   styles.smallSuggestion,
                   styles.smallSuggestionMarginLeft
                 ]}
-                source={require("../../../assets/seth-doyle-188635.png")}
+                source={require("../../assets/seth-doyle-188635.png")}
               />
               <TouchableRoundedImage
                 style={[
                   styles.smallSuggestion,
                   styles.smallSuggestionMarginLeft
                 ]}
-                source={require("../../../assets/playbutton.png")}
+                source={require("../../assets/playbutton.png")}
               />
             </View>
           </View>
