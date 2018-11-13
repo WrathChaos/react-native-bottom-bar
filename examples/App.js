@@ -114,14 +114,12 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   welcome: {
-    // fontFamily: fonts.light,
     color: "rgba(255, 255, 255, .85)",
     marginBottom: 45,
     fontSize: 30,
     textAlign: "center"
   },
   registration: {
-    // fontFamily: fonts.base,
     color: "rgba(0, 0, 0, .5)",
     marginTop: 20,
     fontSize: 16,
