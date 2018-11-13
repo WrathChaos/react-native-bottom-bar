@@ -1,7 +1,24 @@
 {
-  "name": "empty-project-template",
+  "name": "react-native-bottom-bar",
+  "version": "0.0.2",
+  "description": "Fully customizable BottomBar for React Native.",
+  "keywords": [
+    "react-native",
+    "gradient",
+    "button",
+    "buttons",
+    "bottom-bar",
+    "bar",
+    "javascript",
+    "ui-lib",
+    "rn"
+  ],
+  "homepage": "https://www.freakycoder.com",
+  "bugs": "https://github.com/WrathChaos/react-native-bottom-bar/issues",
   "main": "node_modules/expo/AppEntry.js",
-  "private": true,
+  "repository": "git@github.com:WrathChaos/react-native-bottom-bar.git",
+  "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
