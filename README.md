@@ -62,7 +62,7 @@ npm i react-native-bottom-bar
 | thirdIconComponent  | component |       MiniButton(simple icon button)       | renders your own component as a third button      |
 | fourthIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a fourth button     |
 
-### Thanks
+### Credits
 Thank you [RN Typography Team](https://github.com/hectahertz/react-native-typography) for the ShowcaseScreen :) It has a great design.
 
 
