@@ -21,6 +21,16 @@ const pnkGradient = ["#bc4e9c", "#f80759"];
 console.disableYellowBox = true;
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.mainIconOnPress = this.mainIconOnPress.bind(this);
+  }
+
+  mainIconOnPress() {
+    // Magic happens for main icon on press
+    console.log("mainIconOnPress");
+  }
+
   openURL() {
     Linking.canOpenURL(url).then(supported => {
       if (supported) {
@@ -95,6 +105,7 @@ export default class App extends React.Component {
             miniButtonsColor="#f04913"
             mainIcon={this.renderMainIcon()}
             mainIconGradient={pnkGradient}
+            mainIconOnPress={this.mainIconOnPress}
             firstIconComponent={this.renderFirstIconComponent()}
             secondIconComponent={this.renderSecondIconComponent()}
             thirdIconComponent={this.renderThirdIconComponent()}
