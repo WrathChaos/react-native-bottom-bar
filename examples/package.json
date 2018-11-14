@@ -1,6 +1,7 @@
 {
   "name": "empty-project-template",
   "main": "node_modules/expo/AppEntry.js",
+  "description": "Fully customizable BottomBar for React Native.",
   "private": true,
   "scripts": {
     "start": "expo start",
