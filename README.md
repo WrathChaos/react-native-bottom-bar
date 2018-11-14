@@ -63,15 +63,9 @@ npm i react-native-bottom-bar
 | fourthIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a fourth button     |
 
 ### Credits
-<<<<<<< HEAD
 
 Thank you [RN Typography Team](https://github.com/hectahertz/react-native-typography) for the ShowcaseScreen :) It has a great design.
 
-=======
-Thank you [RN Typography Team](https://github.com/hectahertz/react-native-typography) for the ShowcaseScreen :) It has a great design.
-
-
->>>>>>> 5ddac6cc59e0b926e91f401169ef6cbc9f4d1eb4
 ## Author
 
 FreakyCoder, kurayogun@gmail.com
