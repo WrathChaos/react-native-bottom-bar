@@ -1,6 +1,6 @@
 {
   "name": "react-native-bottom-bar",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Fully customizable BottomBar for React Native.",
   "keywords": [
     "react-native",
@@ -20,22 +20,24 @@
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "peerDependencies": {
-    "expo": ">= 27.x",
     "react": ">= 16.x",
     "react-native": ">= 0.55.x",
     "react-native-elements": ">= 0.19",
+    "react-native-vector-icons": ">= 6.0",
     "react-native-iphone-x-helper": ">= 1.2",
-    "react-native-vector-icons": ">= 6.0"
+    "react-native-linear-gradient": ">= 2.5.x"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
-    "@types/expo": "^27.0.12",
     "@types/react": "^16.4.15",
     "@types/react-native": "^0.57.2"
   }
