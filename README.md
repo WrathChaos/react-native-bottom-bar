@@ -48,19 +48,20 @@ npm i react-native-bottom-bar
 
 ##### BottomBar:
 
-| Property            |   Type    |                  Default                   | Description                                       |
-| ------------------- | :-------: | :----------------------------------------: | ------------------------------------------------- |
-| style               |   style   |                 container                  | use this to change the main BottomBar's style     |
-| shapeColor          |   color   |                  #FBFBFD                   | use this to change the unique shape's color       |
-| mainIcon            | component |                    icon                    | changes the main big button's icon type           |
-| mainIconColor       |   color   |                  #FFFFFF                   | changes the main big button's icon color          |
-| mainIconGradient    |   array   |               blue gradient                | changes the main big button's gradient color      |
-| mainIconComponent   | component | MainIconButton(Gradient Icon based button) | Make your own button on the main one              |
-| miniButtonsColor    |   color   |                    null                    | changes the mini buttons color with a single prop |
-| firstIconComponent  | component |       MiniButton(simple icon button)       | renders your own component as a first button      |
-| secondIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a second button     |
-| thirdIconComponent  | component |       MiniButton(simple icon button)       | renders your own component as a third button      |
-| fourthIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a fourth button     |
+| Property            |   Type    |                  Default                   | Description                                         |
+| ------------------- | :-------: | :----------------------------------------: | --------------------------------------------------- |
+| style               |   style   |                 container                  | use this to change the main BottomBar's style       |
+| shapeStyle          |   style   |                 bottom:89                  | use this to change the main BottomBar's Shape style |
+| shapeColor          |   color   |                  #FBFBFD                   | use this to change the unique shape's color         |
+| mainIcon            | component |                    icon                    | changes the main big button's icon type             |
+| mainIconColor       |   color   |                  #FFFFFF                   | changes the main big button's icon color            |
+| mainIconGradient    |   array   |               blue gradient                | changes the main big button's gradient color        |
+| mainIconComponent   | component | MainIconButton(Gradient Icon based button) | Make your own button on the main one                |
+| miniButtonsColor    |   color   |                    null                    | changes the mini buttons color with a single prop   |
+| firstIconComponent  | component |       MiniButton(simple icon button)       | renders your own component as a first button        |
+| secondIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a second button       |
+| thirdIconComponent  | component |       MiniButton(simple icon button)       | renders your own component as a third button        |
+| fourthIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a fourth button       |
 
 ### Credits
 
