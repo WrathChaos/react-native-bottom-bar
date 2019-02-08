@@ -15,9 +15,18 @@ Fully customizable, unique shaped bottom bar component for React Native.
 
 Add the dependency:
 
+### Pure React Native : 
+
 ```ruby
 npm i react-native-bottom-bar
 ```
+
+### Expo Version : 
+
+```ruby
+"react-native-bottom-bar": "WrathChaos/react-native-bottom-bar#expo"
+```
+
 
 ## Usage
 
