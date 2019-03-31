@@ -3,7 +3,7 @@
 Fully customizable, unique shaped bottom bar component for React Native.
 
 [![npm version](https://img.shields.io/npm/v/react-native-bottom-bar.svg)](https://www.npmjs.com/package/react-native-bottom-bar)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-bottom-bar.svg)](https://www.npmjs.com/package/react-native-bottom-bar)
+[![npm](https://img.shields.io/npm/dt/react-native-bottom-bar.svg)](https://www.npmjs.com/package/react-native-bottom-bar)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
