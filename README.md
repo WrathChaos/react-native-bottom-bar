@@ -27,6 +27,18 @@ npm i react-native-bottom-bar
 "react-native-bottom-bar": "WrathChaos/react-native-bottom-bar#expo"
 ```
 
+### Peer Dependencies : 
+
+You must install these dependencies! 
+
+```ruby
+"react": ">= 16.x",
+"react-native": ">= 0.55.x",
+"react-native-vector-icons": ">= 6.0",
+"react-native-iphone-x-helper": ">= 1.2",
+"react-native-linear-gradient": ">= 2.4.x",
+"react-native-dynamic-vector-icons": ">= x.x.x"
+```
 
 ## Usage
 
