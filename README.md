@@ -62,7 +62,7 @@ You must install these dependencies!
 
 - I just shared the example project on Expo, simply run on your device to check what it is:
   [via Expo](https://exp.host/@freakycoder/examples) OR
-  [check the code](examples/App.js), and yes! :) all of the images, screenshots are directly taken
+  [check the code](example/App.js), and yes! :) all of the images, screenshots are directly taken
   from the this example. Of course, you can simply clone the project and run the example on your own environment.
 
 ### Configuration - Props
