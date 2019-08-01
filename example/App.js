@@ -6,10 +6,11 @@ import {
   SafeAreaView,
   View
 } from "react-native";
-import { Icon } from "react-native-elements";
+import Icon from "react-native-dynamic-vector-icons";
 // Other Components
 import { ShowcaseScreen } from "./src/components/ShowcaseScreen";
-import BottomBar from "react-native-bottom-bar";
+// import BottomBar from "react-native-bottom-bar";
+import BottomBar from "./lib/src/components/BottomBar";
 
 const mainColor = "#373f4c";
 const url = "www.freakycoder.com";
@@ -43,14 +44,19 @@ export default class App extends React.Component {
 
   renderMainIcon() {
     return (
-      <Icon name="play" type="material-community" size={40} color="white" />
+      <Icon name="play" type="MaterialCommunityIcons" size={40} color="white" />
     );
   }
 
   renderFirstIconComponent() {
     return (
       <View style={{ right: 16 }}>
-        <Icon name="ios-megaphone" type="ionicon" size={40} color={mainColor} />
+        <Icon
+          name="ios-megaphone"
+          type="Ionicons"
+          size={40}
+          color={mainColor}
+        />
       </View>
     );
   }
@@ -65,7 +71,7 @@ export default class App extends React.Component {
         >
           <Icon
             name="medium"
-            type="material-community"
+            type="MaterialCommunityIcons"
             size={40}
             color={mainColor}
           />
@@ -79,7 +85,7 @@ export default class App extends React.Component {
       <View style={{ left: 24, bottom: 3 }}>
         <Icon
           name="account"
-          type="material-community"
+          type="MaterialCommunityIcons"
           size={45}
           color={mainColor}
         />
@@ -90,7 +96,7 @@ export default class App extends React.Component {
   renderFourthIconComponent() {
     return (
       <View style={{ left: 16 }}>
-        <Icon name="ios-settings" type="ionicon" size={40} color={mainColor} />
+        <Icon name="ios-settings" type="Ionicons" size={40} color={mainColor} />
       </View>
     );
   }
