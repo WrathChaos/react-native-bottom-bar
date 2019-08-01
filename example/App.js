@@ -1,10 +1,11 @@
 import React from "react";
 import {
-  StyleSheet,
-  TouchableOpacity,
+  View,
   Linking,
+  Platform,
+  StyleSheet,
   SafeAreaView,
-  View
+  TouchableOpacity
 } from "react-native";
 import Icon from "react-native-dynamic-vector-icons";
 // Other Components
@@ -50,7 +51,18 @@ export default class App extends React.Component {
 
   renderFirstIconComponent() {
     return (
-      <View style={{ right: 16 }}>
+      <View
+        style={{
+          ...Platform.select({
+            ios: {
+              right: 16
+            },
+            android: {
+              right: 8
+            }
+          })
+        }}
+      >
         <Icon
           name="ios-megaphone"
           type="Ionicons"
@@ -63,7 +75,20 @@ export default class App extends React.Component {
 
   renderSecondIconComponent() {
     return (
-      <View style={{ right: 24, bottom: 3 }}>
+      <View
+        style={{
+          ...Platform.select({
+            ios: {
+              right: 24,
+              bottom: 3
+            },
+            android: {
+              right: 8,
+              bottom: 5
+            }
+          })
+        }}
+      >
         <TouchableOpacity
           onPress={() => {
             this.openURL();
@@ -82,7 +107,20 @@ export default class App extends React.Component {
 
   renderThirdIconComponent() {
     return (
-      <View style={{ left: 24, bottom: 3 }}>
+      <View
+        style={{
+          ...Platform.select({
+            ios: {
+              left: 24,
+              bottom: 3
+            },
+            android: {
+              left: 8,
+              bottom: 5
+            }
+          })
+        }}
+      >
         <Icon
           name="account"
           type="MaterialCommunityIcons"
@@ -95,7 +133,18 @@ export default class App extends React.Component {
 
   renderFourthIconComponent() {
     return (
-      <View style={{ left: 16 }}>
+      <View
+        style={{
+          ...Platform.select({
+            ios: {
+              left: 16
+            },
+            android: {
+              left: 8
+            }
+          })
+        }}
+      >
         <Icon name="ios-settings" type="Ionicons" size={40} color={mainColor} />
       </View>
     );
