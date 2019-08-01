@@ -1,23 +1,31 @@
-import { Dimensions } from "react-native";
-import colors from "./common/colors";
-
+import { Dimensions, Platform } from "react-native";
 const { width } = Dimensions.get("window");
 
-export default {
-  shape: {
-    main: {
-      width,
-      height: width,
-      borderRadius: width / 2,
-      alignSelf: "center",
-      alignContent: "center",
-      transform: [{ scaleX: 2 }, { scaleY: 0.5 }]
-    },
-    customShadowStyle: {
-      shadowColor: colors.theme.light.shadowColor,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.3,
-      shadowRadius: 3
-    }
-  }
-};
+export function _shapeStyle(backgroundColor) {
+  return {
+    width,
+    height: width,
+    backgroundColor,
+    alignSelf: "center",
+    borderRadius: width / 2,
+    alignContent: "center",
+    transform: [{ scaleX: 2 }, { scaleY: 0.5 }],
+    ...Platform.select({
+      ios: {
+        bottom: 89
+      },
+      android: {
+        bottom: 99
+      }
+    })
+  };
+}
+
+export function _shadowStyle(shadowColor) {
+  return {
+    shadowRadius: 3,
+    shadowOpacity: 0.3,
+    shadowColor: shadowColor,
+    shadowOffset: { width: 0, height: 2 }
+  };
+}

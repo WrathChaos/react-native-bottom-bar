@@ -58,7 +58,8 @@ export default class App extends React.Component {
               right: 16
             },
             android: {
-              right: 8
+              right: 8,
+              top: 8
             }
           })
         }}
@@ -83,8 +84,7 @@ export default class App extends React.Component {
               bottom: 3
             },
             android: {
-              right: 8,
-              bottom: 5
+              top: 3
             }
           })
         }}
@@ -115,8 +115,8 @@ export default class App extends React.Component {
               bottom: 3
             },
             android: {
-              left: 8,
-              bottom: 5
+              top: 3,
+              left: 3
             }
           })
         }}
@@ -140,7 +140,8 @@ export default class App extends React.Component {
               left: 16
             },
             android: {
-              left: 8
+              left: 8,
+              top: 8
             }
           })
         }}
@@ -156,10 +157,10 @@ export default class App extends React.Component {
         <View style={styles.container}>
           <ShowcaseScreen />
           <BottomBar
-            shapeColor="#fcfcfc"
+            shapeColor="#fbfbfb"
             miniButtonsColor="#f04913"
-            mainIcon={this.renderMainIcon()}
             mainIconGradient={pnkGradient}
+            mainIcon={this.renderMainIcon()}
             mainIconOnPress={this.mainIconOnPress}
             firstIconComponent={this.renderFirstIconComponent()}
             secondIconComponent={this.renderSecondIconComponent()}

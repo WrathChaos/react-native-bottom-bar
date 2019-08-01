@@ -1,25 +1,31 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import { View } from "react-native";
-import styles from "./styles/Shape.style";
-import colors from "./styles/common/colors";
+import { _shapeStyle, _shadowStyle } from "./styles/Shape.style";
 
-export default class Shape extends Component {
+class Shape extends Component {
   render() {
-    const { shapeStyle } = this.props;
+    const { shapeStyle, shapeColor, shapeShadowColor } = this.props;
     return (
       <View
         style={[
-          styles.shape.main,
-          styles.shape.customShadowStyle,
-          {
-            backgroundColor:
-              this.props.shapeColor || colors.theme.light.primaryBackground
-          },
-          shapeStyle || {
-            bottom: 89
-          }
+          _shapeStyle(shapeColor),
+          _shadowStyle(shapeShadowColor),
+          shapeStyle
         ]}
       />
     );
   }
 }
+
+Shape.propTypes = {
+  shapeColor: PropTypes.string,
+  shapeShadowColor: PropTypes.string
+};
+
+Shape.defaultProps = {
+  shapeColor: "#FBFBFD",
+  shapeShadowColor: "#757575"
+};
+
+export default Shape;
