@@ -34,6 +34,7 @@ You must install these dependencies!
 ```ruby
 "react": ">= 16.x",
 "react-native": ">= 0.55.x",
+"react-native-androw": ">= 0.0.31",
 "react-native-vector-icons": ">= 6.0",
 "react-native-iphone-x-helper": ">= 1.2",
 "react-native-linear-gradient": ">= 2.4.x",
