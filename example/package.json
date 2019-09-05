@@ -8,10 +8,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.8.6",
-    "react-native": "0.60.4",
-    "react-native-androw": "0.0.31",
-    "react-native-dynamic-vector-icons": "0.0.4",
+    "react": "16.9.0",
+    "react-native": "0.60.5",
+    "react-native-androw": "0.0.33",
+    "react-native-dynamic-vector-icons": "0.1.0",
     "react-native-iphone-x-helper": "^1.2.1",
     "react-native-linear-gradient": "^2.5.6",
     "react-native-typography": "^1.4.1",
@@ -24,8 +24,8 @@
     "babel-jest": "^24.8.0",
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
-    "metro-react-native-babel-preset": "^0.55.0",
-    "react-test-renderer": "16.8.6"
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
