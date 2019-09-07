@@ -1,10 +1,14 @@
 # <img alt="React Native Bottom Bar" src="https://github.com/WrathChaos/react-native-bottom-bar/blob/master/assets/Screenshots/logo.png" width="275"/>
 
-Fully customizable, unique shaped bottom bar component for React Native.
+[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
 
-[![npm version](https://img.shields.io/npm/v/react-native-bottom-bar.svg)](https://www.npmjs.com/package/react-native-bottom-bar)
-[![npm](https://img.shields.io/npm/dt/react-native-bottom-bar.svg)](https://www.npmjs.com/package/react-native-bottom-bar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+[![Fully customizable, unique shaped bottom bar component for React Native.](https://img.shields.io/badge/-Fully%20customizable%2C%20unique%20shaped%20bottom%20bar%20component%20for%20React%20Native-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
+
+
+[![npm version](https://img.shields.io/npm/v/react-native-bottom-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-bottom-bar)
+[![npm](https://img.shields.io/npm/dt/react-native-bottom-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-bottom-bar)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <p align="center">
 <img alt="React Native Bottom Bar" src="https://github.com/WrathChaos/react-native-bottom-bar/blob/master/assets/Screenshots/original.png" width="49.7%"/>
