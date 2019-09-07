@@ -9,9 +9,8 @@ import {
 } from "react-native";
 import Icon from "react-native-dynamic-vector-icons";
 // Other Components
+import BottomBar from "react-native-bottom-bar";
 import { ShowcaseScreen } from "./src/components/ShowcaseScreen";
-// import BottomBar from "react-native-bottom-bar";
-import BottomBar from "./lib/src/components/BottomBar";
 
 const mainColor = "#373f4c";
 const url = "www.freakycoder.com";
