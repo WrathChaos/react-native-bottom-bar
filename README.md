@@ -2,9 +2,7 @@
 
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
 
-
 [![Fully customizable, unique shaped bottom bar component for React Native.](https://img.shields.io/badge/-Fully%20customizable%2C%20unique%20shaped%20bottom%20bar%20component%20for%20React%20Native-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
-
 
 [![npm version](https://img.shields.io/npm/v/react-native-bottom-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-bottom-bar)
 [![npm](https://img.shields.io/npm/dt/react-native-bottom-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-bottom-bar)
@@ -19,23 +17,24 @@
 
 Add the dependency:
 
-### Pure React Native : 
+### Pure React Native :
 
-```ruby
+```js
 npm i react-native-bottom-bar
 ```
 
-### Expo Version : 
+### Expo Version :
 
-```ruby
+```js
 "react-native-bottom-bar": "WrathChaos/react-native-bottom-bar#expo"
 ```
 
-### Peer Dependencies : 
+### Peer Dependencies :
 
-You must install these dependencies! 
+You must install these dependencies!
 
-```ruby
+```js
+"@freakycoder/react-native-helpers": ">= 0.1.2",
 "react": ">= 16.x",
 "react-native": ">= 0.55.x",
 "react-native-androw": ">= 0.0.31",
@@ -47,20 +46,20 @@ You must install these dependencies!
 
 ## Usage
 
-```ruby
+```jsx
 <BottomBar
-   style={style}
-   shapeColor={shapeColor}
-   mainIcon={mainIcon}
-   mainIconColor={mainIconColor}
-   mainIconGradient={mainIconGradient}
-   mainIconComponent={mainIconComponent}
-   miniButtonsColor={miniButtonsColor}
-   firstIconComponent={firstIconComponent}
-   secondIconComponent={secondIconComponent}
-   thirdIconComponent={thirdIconComponent}
-   fourthIconComponent={fourthIconComponent}
- />
+  style={style}
+  shapeColor={shapeColor}
+  mainIcon={mainIcon}
+  mainIconColor={mainIconColor}
+  mainIconGradient={mainIconGradient}
+  mainIconComponent={mainIconComponent}
+  miniButtonsColor={miniButtonsColor}
+  firstIconComponent={firstIconComponent}
+  secondIconComponent={secondIconComponent}
+  thirdIconComponent={thirdIconComponent}
+  fourthIconComponent={fourthIconComponent}
+/>
 ```
 
 ### Example Application
