@@ -1,6 +1,6 @@
 {
   "name": "react-native-bottom-bar",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Fully customizable BottomBar for React Native.",
   "keywords": [
     "react-native",
@@ -15,7 +15,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-bottom-bar/issues",
-  "main": "./lib/src/components/BottomBar.js",
+  "main": "./lib/src/BottomBar.js",
   "repository": "git@github.com:WrathChaos/react-native-bottom-bar.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
