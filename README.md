@@ -87,6 +87,10 @@ You must install these dependencies!
 | secondIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a second button       |
 | thirdIconComponent  | component |       MiniButton(simple icon button)       | renders your own component as a third button        |
 | fourthIconComponent | component |       MiniButton(simple icon button)       | renders your own component as a fourth button       |
+| disableFirstIcon    |  boolean  |                   false                    | disable the first icon button                       |
+| disableSecondIcon   |  boolean  |                   false                    | disable the second icon button                      |
+| disableThirdIcon    |  boolean  |                   false                    | disable the third icon button                       |
+| disableFourthIcon   |  boolean  |                   false                    | disable the fourth icon button                      |
 
 ### Credits
 
