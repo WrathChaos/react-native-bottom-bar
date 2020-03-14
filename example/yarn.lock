@@ -657,6 +657,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@freakycoder/react-native-helpers@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@freakycoder/react-native-helpers/-/react-native-helpers-0.1.2.tgz#a96a919b15cbd0ef0e2ed96e87149dd0b0bd9613"
+  integrity sha512-iRmGZKRNvdGmaEyHJnpqqwSfLSFf+y2wCWcV0VpMUl52zvGmivJ5Zpw9wEnmgw4u5oXFkRD0NC/30rdUuDa9wg==
+
 "@hapi/address@2.x.x":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.0.0.tgz#9f05469c88cb2fd3dcd624776b54ee95c312126a"
@@ -1088,9 +1093,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.7:
   version "6.2.1"
@@ -5145,10 +5150,10 @@ react-native-androw@0.0.31:
   resolved "https://registry.yarnpkg.com/react-native-androw/-/react-native-androw-0.0.31.tgz#bd6de8a6f9e9bb0671f9e257f118165b0e8157cb"
   integrity sha512-NF9z8N8BlboaIXoz7E6M1A2J7Bh3I342P6VmvE6ZjpZPhbGhPtlhfhxiS2ZbE+7OT9bES8T3si4jUOPY7T8lPw==
 
-react-native-bottom-bar@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-bottom-bar/-/react-native-bottom-bar-0.2.1.tgz#0a52b9d3bdf77884bf7e6408bbe81fe7dc418a9d"
-  integrity sha512-xnIf3rmisdJi1ub1lbzElW3NDROVgtkx5WksX84XmP3UqmhT3y2K4qTvvIBTKG+ZKIxEsIokR15cw1jdiKE04g==
+react-native-bottom-bar@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-bottom-bar/-/react-native-bottom-bar-0.2.2.tgz#65992fd5908888994e9d98f23f48c070aead5181"
+  integrity sha512-m0RFZu33uaqtw9qc5DOdvoSovnCD8Q/OHs8CIajzfTufG1JT7kQk9rR7cdf5i55LcnqYT1/tJaYGIZjJso61JA==
 
 react-native-dynamic-vector-icons@0.0.4:
   version "0.0.4"
