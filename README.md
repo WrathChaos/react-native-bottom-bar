@@ -34,12 +34,9 @@ npm i react-native-bottom-bar
 You must install these dependencies!
 
 ```js
-"@freakycoder/react-native-helpers": ">= 0.1.2",
-"react": ">= 16.x",
-"react-native": ">= 0.55.x",
+"@freakycoder/react-native-helpers": ">= 1.0.0",
 "react-native-androw": ">= 0.0.31",
-"react-native-vector-icons": ">= 6.0",
-"react-native-iphone-x-helper": ">= 1.2",
+"react-native-vector-icons": ">= 6.0.0",
 "react-native-linear-gradient": ">= 2.4.x",
 "react-native-dynamic-vector-icons": ">= x.x.x"
 ```

@@ -1,6 +1,6 @@
 {
   "name": "react-native-bottom-bar",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Fully customizable BottomBar for React Native.",
   "keywords": [
     "react-native",
@@ -26,7 +26,7 @@
     "eject": "react-native eject"
   },
   "peerDependencies": {
-    "@freakycoder/react-native-helpers": ">= 0.1.2",
+    "@freakycoder/react-native-helpers": ">= 1.0.0",
     "react": ">= 16.x",
     "react-native": ">= 0.55.x",
     "react-native-androw": ">= 0.0.31",
