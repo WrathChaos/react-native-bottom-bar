@@ -35,7 +35,7 @@
     "react-native-dynamic-vector-icons": ">= x.x.x"
   },
   "devDependencies": {
-    "@types/react": "^17.0.0",
+    "@types/react": "^18.0.0",
     "@types/react-native": "^0.67.0"
   }
 }
