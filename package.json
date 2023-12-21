@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
-    "@types/react-native": "^0.72.0"
+    "@types/react-native": "^0.73.0"
   }
 }
